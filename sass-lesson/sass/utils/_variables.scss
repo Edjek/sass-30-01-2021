@@ -1,0 +1,5 @@
+$main-color: rgb(144, 12, 232);
+$main-color-dark: darken($main-color, 20%);
+$main-color-darker: darken($main-color, 40%);
+$main-color-light: lighten($main-color, 20%);
+$main-color-lighter: lighten($main-color, 40%);

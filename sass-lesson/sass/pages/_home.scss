@@ -1,0 +1,33 @@
+.hero-title {
+    color: $main-color;
+    @include title(35px, Franklin);
+}
+
+.about-us-title {
+    @include title(30px, Gill)
+}
+
+
+.lorem {
+    @extend %lorem;
+
+    .link {
+        color: $main-color;
+        font-size: multiplication(10, 2)+px;
+
+        &:hover {
+            color: $main-color-dark;
+        }
+    }
+
+
+}
+
+.lorem-hero {
+    @extend %lorem;
+    color: $main-color;
+}
+
+// .btn {
+//     color: $main-color;
+// }
