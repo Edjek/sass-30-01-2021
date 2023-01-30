@@ -1,5 +1,11 @@
+// les placeholders permettent d'insérer des bout de code qui se répètent
 %lorem {
     font-size: 18px;
     padding: 20px;
     font-family: arial;
+}
+
+%section {
+    padding: 30px 20px;
+
 }

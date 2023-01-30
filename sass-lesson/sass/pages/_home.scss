@@ -1,12 +1,21 @@
+// SECTION HERO
+.hero {
+    @extend %section;
+}
+
 .hero-title {
     color: $main-color;
-    @include title(35px, Franklin);
+    @include title(35px, 'Franklin Gothic Medium');
+}
+
+// SECTION ABOUT US
+.about-us {
+    @extend %section;
 }
 
 .about-us-title {
-    @include title(30px, Gill)
+    @include title(30px, 'Gill Sans')
 }
-
 
 .lorem {
     @extend %lorem;
@@ -19,15 +28,9 @@
             color: $main-color-dark;
         }
     }
-
-
 }
 
 .lorem-hero {
     @extend %lorem;
     color: $main-color;
 }
-
-// .btn {
-//     color: $main-color;
-// }

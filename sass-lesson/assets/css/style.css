@@ -4,6 +4,10 @@
   font-family: arial;
 }
 
+.about-us, .hero {
+  padding: 30px 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,23 +26,24 @@ a {
 }
 
 header {
+  padding: 20px 60px;
   background-color: rgb(144, 12, 232);
-  height: 65px;
+  color: #fff;
 }
 
 .hero-title {
   color: rgb(144, 12, 232);
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  font-family: Franklin;
+  font-family: "Franklin Gothic Medium";
 }
 
 .about-us-title {
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  font-family: Gill;
+  font-family: "Gill Sans";
 }
 
 .lorem .link {

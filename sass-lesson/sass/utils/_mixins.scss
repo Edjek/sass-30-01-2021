@@ -1,6 +1,8 @@
-@mixin title($font-size, $font-family){
+// Les mixins permettent d'insérer des bouts de code qui se répètent avec des paramètres personnalisables
+// On peut aussi créer des mixins sans paramètre mais on préfère utiliser les placeholders dans ces cas là
+@mixin title($font-size, $font-family) {
     font-size: $font-size;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: $font-family;
 }

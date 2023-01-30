@@ -1,3 +1,5 @@
+// les imports permettent d'intégrer des fichiers partials
+// L'ordre importe, on importe les variables, les fonctions, le reset et le code dans un ordre logique
 @import 'utils/variables';
 @import 'utils/placeholders';
 @import 'utils/mixins';
