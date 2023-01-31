@@ -1,0 +1,13 @@
+Paramètres pour Sass à mettre dans le fichier settings.json
+
+"liveSassCompile.settings.formats": [
+        {
+            
+            // "format": "compressed",
+            // "extensionName": ".min.css",
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css/"
+        }
+    ]
+    
