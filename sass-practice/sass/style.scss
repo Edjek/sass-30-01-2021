@@ -1,0 +1,33 @@
+@import 'utils/variables';
+@import 'utils/placeholders';
+@import 'utils/mixins';
+@import 'base/reset';
+@import 'base/base';
+@import 'pages/index';
+
+// 1. Créer une palette de 5 variables qui représentent des nuances de bleu en hexadécimal
+
+
+// 2. Utiliez le "nesting" de SASS afin d'imbriquer les sélecteurs suivants
+
+
+// 3. Partagez les trois propriétés suivantes avec les h2, h3 & h4.
+// Le résultat dans le style.css devrait ressembler à ceci :
+// h2, h3, h4 {
+//     font-size: 45px;
+//     text-align: center;
+//     padding: 12px 0;
+//   }
+
+
+// 4. Créez un mixin avec des paramètres pour éviter les répétitions.
+// Les sélecteurs ne doivent pas avoir de propriétés propres, tout doit être compris dans le mixin et ses paramètres.
+
+
+
+
+// 5. Utilisez une boucle pour ajouter 1px de hauteur et de largeur aux 100 blocks de manière incrémentale (b1,b2,b3 etc ...).
+// 1px 1px
+// 2px 2px
+
+

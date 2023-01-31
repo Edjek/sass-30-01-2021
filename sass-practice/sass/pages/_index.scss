@@ -1,0 +1,70 @@
+.container {
+    background: $blue-light;
+    color: #f1f1f1;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 900px;
+    margin: 20px auto 0;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 10px 15px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+
+        &:hover {
+            background: lightblue;
+            color: #f1f1f1;
+        }
+    }
+
+}
+
+h2 {
+    @extend %subtitle;
+    color: crimson;
+}
+
+h3 {
+    @extend %subtitle;
+    color: lightgreen;
+}
+
+h4 {
+    @extend %subtitle;
+    color: lightblue;
+}
+
+.inp-large {
+    @include input(block, 24px, 20px, 100%, 800px, 50px auto);
+}
+
+.inp-small {
+    @include input(block, 16px, 14px, 100%, 250px, 50px auto);
+
+}
+
+.blocks-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    border: 10px solid rgb(43, 220, 20);
+    background: #000;
+    margin: 20px;
+}
+
+@for $i from 1 through 100 {
+    .b#{$i} {
+        width: $i+px;
+        height: $i+px;
+    }
+}
