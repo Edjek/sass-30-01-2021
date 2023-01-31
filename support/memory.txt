@@ -1,0 +1,24 @@
+<--! documentaion -->
+https://devdocs.io/
+
+<--! créer une page en 4 minutes -->
+https://jgthms.com/web-design-in-4-minutes/
+
+<!-- Banque d'image -->
+https://pixabay.com/fr/
+https://www.pexels.com/fr-fr/
+https://unsplash.com/
+
+<!-- Les polices de caractère -->
+https://fonts.google.com/
+
+<!-- Pour des couleurs assortis en CSS -->
+https://colorhunt.co/
+https://coolors.co/
+https://flatuicolors.com/
+
+<!-- Pour vous exercer aux flexbox -->y
+https://flexboxfroggy.com/#fr
+
+<!-- Pour partager du CSS -->
+https://codepen.io/dihcar-cesar
