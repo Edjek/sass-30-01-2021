@@ -1,5 +1,6 @@
 // SECTION HERO
 .hero {
+    background-color: $main-color-lighter;
     @extend %section;
 }
 

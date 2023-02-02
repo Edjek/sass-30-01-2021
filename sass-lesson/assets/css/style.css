@@ -31,6 +31,10 @@ header {
   color: #fff;
 }
 
+.hero {
+  background-color: #e6c4fc;
+}
+
 .hero-title {
   color: rgb(144, 12, 232);
   font-size: 35px;
